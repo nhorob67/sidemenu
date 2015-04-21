@@ -25,4 +25,4 @@ test:
 
 production:
   <<: *default
-  database: db_sidemenu_prod
+  database: db_sidemenu
