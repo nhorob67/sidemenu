@@ -1,0 +1,3671 @@
+/*!
+ *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+
+ */
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/assets/fontawesome-webfont.eot");
+  src: url("/assets/fontawesome-webfont.eot?#iefix") format("eot"), url("/assets/fontawesome-webfont.woff") format("woff"), url("/assets/fontawesome-webfont.ttf") format("truetype"), url("/assets/fontawesome-webfont.svg#FontAwesome") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: .14285714em;
+  text-align: center;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid .08em #eee;
+  border-radius: .1em;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.pull-right {
+  float: right;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.pull-left {
+  float: left;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa.pull-left {
+  margin-right: .3em;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa.pull-right {
+  margin-left: .3em;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  /* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin {
+  /* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  /* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+:root .fa-rotate-90, :root .fa-rotate-180, :root .fa-rotate-270, :root .fa-flip-horizontal, :root .fa-flip-vertical {
+  filter: none;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-inverse {
+  color: #fff;
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-glass:before {
+  content: "\f000";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-music:before {
+  content: "\f001";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-search:before {
+  content: "\f002";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-heart:before {
+  content: "\f004";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-star:before {
+  content: "\f005";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-star-o:before {
+  content: "\f006";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-user:before {
+  content: "\f007";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-film:before {
+  content: "\f008";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-th-large:before {
+  content: "\f009";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-th:before {
+  content: "\f00a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-th-list:before {
+  content: "\f00b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-check:before {
+  content: "\f00c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-remove:before, .fa-close:before, .fa-times:before {
+  content: "\f00d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-search-plus:before {
+  content: "\f00e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-search-minus:before {
+  content: "\f010";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-power-off:before {
+  content: "\f011";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-signal:before {
+  content: "\f012";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-gear:before, .fa-cog:before {
+  content: "\f013";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-trash-o:before {
+  content: "\f014";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-home:before {
+  content: "\f015";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-o:before {
+  content: "\f016";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-road:before {
+  content: "\f018";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-download:before {
+  content: "\f019";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-inbox:before {
+  content: "\f01c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-play-circle-o:before {
+  content: "\f01d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-rotate-right:before, .fa-repeat:before {
+  content: "\f01e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-refresh:before {
+  content: "\f021";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-list-alt:before {
+  content: "\f022";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-lock:before {
+  content: "\f023";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-flag:before {
+  content: "\f024";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-headphones:before {
+  content: "\f025";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-volume-off:before {
+  content: "\f026";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-volume-down:before {
+  content: "\f027";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-volume-up:before {
+  content: "\f028";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-qrcode:before {
+  content: "\f029";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-barcode:before {
+  content: "\f02a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-tag:before {
+  content: "\f02b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-tags:before {
+  content: "\f02c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-book:before {
+  content: "\f02d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-print:before {
+  content: "\f02f";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-camera:before {
+  content: "\f030";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-font:before {
+  content: "\f031";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bold:before {
+  content: "\f032";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-italic:before {
+  content: "\f033";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-text-height:before {
+  content: "\f034";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-text-width:before {
+  content: "\f035";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-align-left:before {
+  content: "\f036";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-align-center:before {
+  content: "\f037";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-align-right:before {
+  content: "\f038";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-align-justify:before {
+  content: "\f039";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-list:before {
+  content: "\f03a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-dedent:before, .fa-outdent:before {
+  content: "\f03b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-indent:before {
+  content: "\f03c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-video-camera:before {
+  content: "\f03d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-photo:before, .fa-image:before, .fa-picture-o:before {
+  content: "\f03e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pencil:before {
+  content: "\f040";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-map-marker:before {
+  content: "\f041";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-adjust:before {
+  content: "\f042";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-tint:before {
+  content: "\f043";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-edit:before, .fa-pencil-square-o:before {
+  content: "\f044";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-share-square-o:before {
+  content: "\f045";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-check-square-o:before {
+  content: "\f046";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrows:before {
+  content: "\f047";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-step-backward:before {
+  content: "\f048";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-backward:before {
+  content: "\f04a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-play:before {
+  content: "\f04b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pause:before {
+  content: "\f04c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-stop:before {
+  content: "\f04d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-forward:before {
+  content: "\f04e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-step-forward:before {
+  content: "\f051";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-eject:before {
+  content: "\f052";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-plus-circle:before {
+  content: "\f055";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-minus-circle:before {
+  content: "\f056";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-times-circle:before {
+  content: "\f057";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-check-circle:before {
+  content: "\f058";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-question-circle:before {
+  content: "\f059";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-info-circle:before {
+  content: "\f05a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-crosshairs:before {
+  content: "\f05b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-times-circle-o:before {
+  content: "\f05c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ban:before {
+  content: "\f05e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mail-forward:before, .fa-share:before {
+  content: "\f064";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-expand:before {
+  content: "\f065";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-compress:before {
+  content: "\f066";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-plus:before {
+  content: "\f067";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-minus:before {
+  content: "\f068";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-asterisk:before {
+  content: "\f069";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-gift:before {
+  content: "\f06b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-leaf:before {
+  content: "\f06c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-fire:before {
+  content: "\f06d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-eye:before {
+  content: "\f06e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-eye-slash:before {
+  content: "\f070";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-warning:before, .fa-exclamation-triangle:before {
+  content: "\f071";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-plane:before {
+  content: "\f072";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-calendar:before {
+  content: "\f073";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-random:before {
+  content: "\f074";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-comment:before {
+  content: "\f075";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-magnet:before {
+  content: "\f076";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-retweet:before {
+  content: "\f079";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-folder:before {
+  content: "\f07b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrows-v:before {
+  content: "\f07d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrows-h:before {
+  content: "\f07e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bar-chart-o:before, .fa-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-key:before {
+  content: "\f084";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-gears:before, .fa-cogs:before {
+  content: "\f085";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-comments:before {
+  content: "\f086";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-thumbs-o-up:before {
+  content: "\f087";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-thumbs-o-down:before {
+  content: "\f088";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-star-half:before {
+  content: "\f089";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-heart-o:before {
+  content: "\f08a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sign-out:before {
+  content: "\f08b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-thumb-tack:before {
+  content: "\f08d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-external-link:before {
+  content: "\f08e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sign-in:before {
+  content: "\f090";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-trophy:before {
+  content: "\f091";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-github-square:before {
+  content: "\f092";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-upload:before {
+  content: "\f093";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-lemon-o:before {
+  content: "\f094";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-phone:before {
+  content: "\f095";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-square-o:before {
+  content: "\f096";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bookmark-o:before {
+  content: "\f097";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-phone-square:before {
+  content: "\f098";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-twitter:before {
+  content: "\f099";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-facebook-f:before, .fa-facebook:before {
+  content: "\f09a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-github:before {
+  content: "\f09b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-unlock:before {
+  content: "\f09c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-rss:before {
+  content: "\f09e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-hdd-o:before {
+  content: "\f0a0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bell:before {
+  content: "\f0f3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-hand-o-right:before {
+  content: "\f0a4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-hand-o-left:before {
+  content: "\f0a5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-hand-o-up:before {
+  content: "\f0a6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-hand-o-down:before {
+  content: "\f0a7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-globe:before {
+  content: "\f0ac";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-filter:before {
+  content: "\f0b0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrows-alt:before {
+  content: "\f0b2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-group:before, .fa-users:before {
+  content: "\f0c0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-chain:before, .fa-link:before {
+  content: "\f0c1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-flask:before {
+  content: "\f0c3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cut:before, .fa-scissors:before {
+  content: "\f0c4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-copy:before, .fa-files-o:before {
+  content: "\f0c5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-paperclip:before {
+  content: "\f0c6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-save:before, .fa-floppy-o:before {
+  content: "\f0c7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-square:before {
+  content: "\f0c8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+  content: "\f0c9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-underline:before {
+  content: "\f0cd";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-table:before {
+  content: "\f0ce";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-magic:before {
+  content: "\f0d0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-truck:before {
+  content: "\f0d1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pinterest-square:before {
+  content: "\f0d3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-money:before {
+  content: "\f0d6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-columns:before {
+  content: "\f0db";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-unsorted:before, .fa-sort:before {
+  content: "\f0dc";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sort-down:before, .fa-sort-desc:before {
+  content: "\f0dd";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sort-up:before, .fa-sort-asc:before {
+  content: "\f0de";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-rotate-left:before, .fa-undo:before {
+  content: "\f0e2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-legal:before, .fa-gavel:before {
+  content: "\f0e3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-dashboard:before, .fa-tachometer:before {
+  content: "\f0e4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-comment-o:before {
+  content: "\f0e5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-comments-o:before {
+  content: "\f0e6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-flash:before, .fa-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-paste:before, .fa-clipboard:before {
+  content: "\f0ea";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-lightbulb-o:before {
+  content: "\f0eb";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bell-o:before {
+  content: "\f0a2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cutlery:before {
+  content: "\f0f5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-text-o:before {
+  content: "\f0f6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-building-o:before {
+  content: "\f0f7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-hospital-o:before {
+  content: "\f0f8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-beer:before {
+  content: "\f0fc";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-h-square:before {
+  content: "\f0fd";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-plus-square:before {
+  content: "\f0fe";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-angle-left:before {
+  content: "\f104";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-angle-right:before {
+  content: "\f105";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-angle-up:before {
+  content: "\f106";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-angle-down:before {
+  content: "\f107";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-desktop:before {
+  content: "\f108";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-laptop:before {
+  content: "\f109";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-tablet:before {
+  content: "\f10a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mobile-phone:before, .fa-mobile:before {
+  content: "\f10b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-circle-o:before {
+  content: "\f10c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-spinner:before {
+  content: "\f110";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-circle:before {
+  content: "\f111";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mail-reply:before, .fa-reply:before {
+  content: "\f112";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-github-alt:before {
+  content: "\f113";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-folder-o:before {
+  content: "\f114";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-folder-open-o:before {
+  content: "\f115";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-smile-o:before {
+  content: "\f118";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-frown-o:before {
+  content: "\f119";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-meh-o:before {
+  content: "\f11a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-gamepad:before {
+  content: "\f11b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-keyboard-o:before {
+  content: "\f11c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-flag-o:before {
+  content: "\f11d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-flag-checkered:before {
+  content: "\f11e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-terminal:before {
+  content: "\f120";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-code:before {
+  content: "\f121";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mail-reply-all:before, .fa-reply-all:before {
+  content: "\f122";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+  content: "\f123";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-location-arrow:before {
+  content: "\f124";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-crop:before {
+  content: "\f125";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-code-fork:before {
+  content: "\f126";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-unlink:before, .fa-chain-broken:before {
+  content: "\f127";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-question:before {
+  content: "\f128";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-info:before {
+  content: "\f129";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-exclamation:before {
+  content: "\f12a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-superscript:before {
+  content: "\f12b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-subscript:before {
+  content: "\f12c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-eraser:before {
+  content: "\f12d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-microphone:before {
+  content: "\f130";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-microphone-slash:before {
+  content: "\f131";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-shield:before {
+  content: "\f132";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-calendar-o:before {
+  content: "\f133";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-fire-extinguisher:before {
+  content: "\f134";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-rocket:before {
+  content: "\f135";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-maxcdn:before {
+  content: "\f136";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-chevron-circle-right:before {
+  content: "\f138";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-chevron-circle-up:before {
+  content: "\f139";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-html5:before {
+  content: "\f13b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-css3:before {
+  content: "\f13c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-anchor:before {
+  content: "\f13d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bullseye:before {
+  content: "\f140";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ellipsis-h:before {
+  content: "\f141";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ellipsis-v:before {
+  content: "\f142";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-rss-square:before {
+  content: "\f143";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-play-circle:before {
+  content: "\f144";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ticket:before {
+  content: "\f145";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-minus-square:before {
+  content: "\f146";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-minus-square-o:before {
+  content: "\f147";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-level-up:before {
+  content: "\f148";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-level-down:before {
+  content: "\f149";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-check-square:before {
+  content: "\f14a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pencil-square:before {
+  content: "\f14b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-external-link-square:before {
+  content: "\f14c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-share-square:before {
+  content: "\f14d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-compass:before {
+  content: "\f14e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-toggle-down:before, .fa-caret-square-o-down:before {
+  content: "\f150";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-toggle-up:before, .fa-caret-square-o-up:before {
+  content: "\f151";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-toggle-right:before, .fa-caret-square-o-right:before {
+  content: "\f152";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-euro:before, .fa-eur:before {
+  content: "\f153";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-gbp:before {
+  content: "\f154";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-dollar:before, .fa-usd:before {
+  content: "\f155";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-rupee:before, .fa-inr:before {
+  content: "\f156";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cny:before, .fa-rmb:before, .fa-yen:before, .fa-jpy:before {
+  content: "\f157";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ruble:before, .fa-rouble:before, .fa-rub:before {
+  content: "\f158";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-won:before, .fa-krw:before {
+  content: "\f159";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bitcoin:before, .fa-btc:before {
+  content: "\f15a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file:before {
+  content: "\f15b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-text:before {
+  content: "\f15c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sort-alpha-asc:before {
+  content: "\f15d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sort-alpha-desc:before {
+  content: "\f15e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sort-amount-asc:before {
+  content: "\f160";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sort-amount-desc:before {
+  content: "\f161";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sort-numeric-asc:before {
+  content: "\f162";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sort-numeric-desc:before {
+  content: "\f163";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-thumbs-up:before {
+  content: "\f164";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-youtube-square:before {
+  content: "\f166";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-youtube:before {
+  content: "\f167";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-xing:before {
+  content: "\f168";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-xing-square:before {
+  content: "\f169";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-youtube-play:before {
+  content: "\f16a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-dropbox:before {
+  content: "\f16b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-flickr:before {
+  content: "\f16e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-adn:before {
+  content: "\f170";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bitbucket:before {
+  content: "\f171";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bitbucket-square:before {
+  content: "\f172";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-tumblr:before {
+  content: "\f173";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-tumblr-square:before {
+  content: "\f174";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-long-arrow-up:before {
+  content: "\f176";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-long-arrow-left:before {
+  content: "\f177";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-long-arrow-right:before {
+  content: "\f178";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-apple:before {
+  content: "\f179";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-windows:before {
+  content: "\f17a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-android:before {
+  content: "\f17b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-linux:before {
+  content: "\f17c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-skype:before {
+  content: "\f17e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-foursquare:before {
+  content: "\f180";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-trello:before {
+  content: "\f181";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-female:before {
+  content: "\f182";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-male:before {
+  content: "\f183";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-gittip:before, .fa-gratipay:before {
+  content: "\f184";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sun-o:before {
+  content: "\f185";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-moon-o:before {
+  content: "\f186";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-archive:before {
+  content: "\f187";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bug:before {
+  content: "\f188";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-vk:before {
+  content: "\f189";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-weibo:before {
+  content: "\f18a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-renren:before {
+  content: "\f18b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pagelines:before {
+  content: "\f18c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-stack-exchange:before {
+  content: "\f18d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-arrow-circle-o-left:before {
+  content: "\f190";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-toggle-left:before, .fa-caret-square-o-left:before {
+  content: "\f191";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-dot-circle-o:before {
+  content: "\f192";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-wheelchair:before {
+  content: "\f193";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-vimeo-square:before {
+  content: "\f194";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-turkish-lira:before, .fa-try:before {
+  content: "\f195";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-plus-square-o:before {
+  content: "\f196";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-space-shuttle:before {
+  content: "\f197";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-slack:before {
+  content: "\f198";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-envelope-square:before {
+  content: "\f199";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-wordpress:before {
+  content: "\f19a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-openid:before {
+  content: "\f19b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-institution:before, .fa-bank:before, .fa-university:before {
+  content: "\f19c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mortar-board:before, .fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-yahoo:before {
+  content: "\f19e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-google:before {
+  content: "\f1a0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-reddit:before {
+  content: "\f1a1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-reddit-square:before {
+  content: "\f1a2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-stumbleupon:before {
+  content: "\f1a4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-delicious:before {
+  content: "\f1a5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-digg:before {
+  content: "\f1a6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pied-piper:before {
+  content: "\f1a7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-drupal:before {
+  content: "\f1a9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-joomla:before {
+  content: "\f1aa";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-language:before {
+  content: "\f1ab";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-fax:before {
+  content: "\f1ac";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-building:before {
+  content: "\f1ad";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-child:before {
+  content: "\f1ae";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-paw:before {
+  content: "\f1b0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-spoon:before {
+  content: "\f1b1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cube:before {
+  content: "\f1b2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cubes:before {
+  content: "\f1b3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-behance:before {
+  content: "\f1b4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-behance-square:before {
+  content: "\f1b5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-steam:before {
+  content: "\f1b6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-steam-square:before {
+  content: "\f1b7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-recycle:before {
+  content: "\f1b8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-automobile:before, .fa-car:before {
+  content: "\f1b9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cab:before, .fa-taxi:before {
+  content: "\f1ba";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-tree:before {
+  content: "\f1bb";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-spotify:before {
+  content: "\f1bc";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-deviantart:before {
+  content: "\f1bd";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-soundcloud:before {
+  content: "\f1be";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-database:before {
+  content: "\f1c0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-pdf-o:before {
+  content: "\f1c1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-word-o:before {
+  content: "\f1c2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-excel-o:before {
+  content: "\f1c3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-photo-o:before, .fa-file-picture-o:before, .fa-file-image-o:before {
+  content: "\f1c5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-zip-o:before, .fa-file-archive-o:before {
+  content: "\f1c6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-sound-o:before, .fa-file-audio-o:before {
+  content: "\f1c7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-movie-o:before, .fa-file-video-o:before {
+  content: "\f1c8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-file-code-o:before {
+  content: "\f1c9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-vine:before {
+  content: "\f1ca";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-codepen:before {
+  content: "\f1cb";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-jsfiddle:before {
+  content: "\f1cc";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-life-bouy:before, .fa-life-buoy:before, .fa-life-saver:before, .fa-support:before, .fa-life-ring:before {
+  content: "\f1cd";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-circle-o-notch:before {
+  content: "\f1ce";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ra:before, .fa-rebel:before {
+  content: "\f1d0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ge:before, .fa-empire:before {
+  content: "\f1d1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-git-square:before {
+  content: "\f1d2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-git:before {
+  content: "\f1d3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-hacker-news:before {
+  content: "\f1d4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-qq:before {
+  content: "\f1d6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-wechat:before, .fa-weixin:before {
+  content: "\f1d7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-send:before, .fa-paper-plane:before {
+  content: "\f1d8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-send-o:before, .fa-paper-plane-o:before {
+  content: "\f1d9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-history:before {
+  content: "\f1da";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-genderless:before, .fa-circle-thin:before {
+  content: "\f1db";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-header:before {
+  content: "\f1dc";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-paragraph:before {
+  content: "\f1dd";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sliders:before {
+  content: "\f1de";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-share-alt:before {
+  content: "\f1e0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-share-alt-square:before {
+  content: "\f1e1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bomb:before {
+  content: "\f1e2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-soccer-ball-o:before, .fa-futbol-o:before {
+  content: "\f1e3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-tty:before {
+  content: "\f1e4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-binoculars:before {
+  content: "\f1e5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-plug:before {
+  content: "\f1e6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-slideshare:before {
+  content: "\f1e7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-twitch:before {
+  content: "\f1e8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-yelp:before {
+  content: "\f1e9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-newspaper-o:before {
+  content: "\f1ea";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-wifi:before {
+  content: "\f1eb";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-calculator:before {
+  content: "\f1ec";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-paypal:before {
+  content: "\f1ed";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-google-wallet:before {
+  content: "\f1ee";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cc-visa:before {
+  content: "\f1f0";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cc-discover:before {
+  content: "\f1f2";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cc-amex:before {
+  content: "\f1f3";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cc-paypal:before {
+  content: "\f1f4";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cc-stripe:before {
+  content: "\f1f5";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bell-slash:before {
+  content: "\f1f6";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bell-slash-o:before {
+  content: "\f1f7";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-trash:before {
+  content: "\f1f8";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-copyright:before {
+  content: "\f1f9";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-at:before {
+  content: "\f1fa";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-eyedropper:before {
+  content: "\f1fb";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-birthday-cake:before {
+  content: "\f1fd";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-area-chart:before {
+  content: "\f1fe";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pie-chart:before {
+  content: "\f200";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-line-chart:before {
+  content: "\f201";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-lastfm:before {
+  content: "\f202";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-lastfm-square:before {
+  content: "\f203";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-toggle-off:before {
+  content: "\f204";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-toggle-on:before {
+  content: "\f205";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bicycle:before {
+  content: "\f206";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-bus:before {
+  content: "\f207";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ioxhost:before {
+  content: "\f208";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-angellist:before {
+  content: "\f209";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cc:before {
+  content: "\f20a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-shekel:before, .fa-sheqel:before, .fa-ils:before {
+  content: "\f20b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-meanpath:before {
+  content: "\f20c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-buysellads:before {
+  content: "\f20d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-connectdevelop:before {
+  content: "\f20e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-dashcube:before {
+  content: "\f210";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-forumbee:before {
+  content: "\f211";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-leanpub:before {
+  content: "\f212";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-sellsy:before {
+  content: "\f213";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-shirtsinbulk:before {
+  content: "\f214";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-simplybuilt:before {
+  content: "\f215";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-skyatlas:before {
+  content: "\f216";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cart-plus:before {
+  content: "\f217";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-cart-arrow-down:before {
+  content: "\f218";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-diamond:before {
+  content: "\f219";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-ship:before {
+  content: "\f21a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-user-secret:before {
+  content: "\f21b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-motorcycle:before {
+  content: "\f21c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-street-view:before {
+  content: "\f21d";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-heartbeat:before {
+  content: "\f21e";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-venus:before {
+  content: "\f221";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mars:before {
+  content: "\f222";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mercury:before {
+  content: "\f223";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-transgender:before {
+  content: "\f224";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-transgender-alt:before {
+  content: "\f225";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-venus-double:before {
+  content: "\f226";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mars-double:before {
+  content: "\f227";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-venus-mars:before {
+  content: "\f228";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mars-stroke:before {
+  content: "\f229";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mars-stroke-v:before {
+  content: "\f22a";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-mars-stroke-h:before {
+  content: "\f22b";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-neuter:before {
+  content: "\f22c";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-facebook-official:before {
+  content: "\f230";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-pinterest-p:before {
+  content: "\f231";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-whatsapp:before {
+  content: "\f232";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-server:before {
+  content: "\f233";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-user-plus:before {
+  content: "\f234";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-user-times:before {
+  content: "\f235";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-hotel:before, .fa-bed:before {
+  content: "\f236";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-viacoin:before {
+  content: "\f237";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-train:before {
+  content: "\f238";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-subway:before {
+  content: "\f239";
+}
+
+/* line 24, D:/rails_projects/sassmenu/app/assets/stylesheets/font-awesome.css.scss.erb */
+.fa-medium:before {
+  content: "\f23a";
+}
+/* ------------------------------------------------------------------- */
+/* CSS by Brilliance Team
+/* ------------------------------------------------------------------- */
+/* ----------------- SASS Variables ------------------ */
+/* Nav Menu Background Colour */
+/* Nav Menu Group Lable Colour */
+/* Nav Menu Group Lable Font Size */
+/* Nav Menu Links Background Colour */
+/* Nav Menu Links Font Size */
+/* Nav Menu Links Font Colour */
+/* Nav Menu Links Font Hover Colour */
+/* Nav Menu Progress Bar Colour */
+/* Nav Menu Progress Bar Success Colour */
+/* ----------------- SASS Mixins ------------------ */
+/* Check This Link For SASS Basics http://sass-lang.com/guide */
+/* -------------------- Reset CSS ----------------- */
+/* line 49, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+* {
+  font-size: 100%;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+/* line 57, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+/* line 65, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+/* line 69, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 73, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+}
+
+/* -------------------- Repeated Patterns CSS ----------------- */
+/* line 82, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.btn {
+  -moz-user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 5px 9px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* line 99, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.btn-default {
+  background-color: #fff;
+  border-color: #ccc;
+  color: #333;
+}
+
+/* line 105, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.navbar-btn {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+/* line 110, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.label {
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  -ms-border-radius: 0.25em;
+  border-radius: 0.25em;
+  color: #fff;
+  display: inline;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.2em 0.6em 0.3em;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+/* -------------------- Header Fixed CSS ----------------- */
+/* line 125, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.navbar-fixed-top {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e7e7e7;
+  left: 0;
+  min-height: 50px;
+  position: fixed;
+  right: 0;
+  z-index: 1030;
+}
+
+/* line 135, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 142, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.navbar-header {
+  float: left;
+}
+
+/* line 146, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.navbar-brand {
+  float: left;
+  font-size: 18px;
+  height: 50px;
+  line-height: 20px;
+  padding: 15px;
+}
+
+/* line 154, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.navbar-default .navbar-brand {
+  color: #777;
+}
+
+/* line 158, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.navbar-toggle {
+  display: none;
+}
+
+/* -------------------- Badge CSS ----------------- */
+/* line 164, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.badge {
+  background-color: #777;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  min-width: 10px;
+  padding: 3px 7px;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+/* -------------------- Progress Bar CSS ----------------- */
+/* line 181, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.progress {
+  background-color: #f5f5f5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+/* line 190, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.progress-bar {
+  background-color: #337ab7;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+  color: #fff;
+  float: left;
+  font-size: 12px;
+  height: 100%;
+  line-height: 20px;
+  text-align: center;
+  transition: width 0.6s ease 0s;
+  width: 0;
+}
+
+/* line 203, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.progress-bar-success {
+  background-color: #5cb85c;
+}
+
+/* line 207, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.sr-only {
+  border: 0 none;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* ------------------------------------------------------------------- */
+/* Nav Menu CSS
+/* ------------------------------------------------------------------- */
+/* line 223, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.navbar .yay-toggle {
+  float: left;
+  margin-left: -4px;
+}
+
+/* line 230, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.navbar .yay-toggle + .navbar-brand {
+  margin-left: 0;
+}
+
+/* line 235, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 260px;
+  background: #35384c;
+  font-size: 13px;
+  z-index: 100;
+  overflow: auto;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/* line 249, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-static {
+  position: absolute;
+}
+
+/* line 253, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar i {
+  font-size: 1.1em;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 1.4em;
+  display: inline-block;
+}
+
+/* line 261, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar i.fa {
+  vertical-align: baseline;
+}
+
+/* line 265, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 271, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul {
+  width: 260px;
+  transition: width 300ms ease-in-out;
+}
+
+/* line 276, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul li.label {
+  font-size: 0.9em;
+  height: 30px;
+  line-height: 40px;
+  color: #767ca0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* line 285, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul li.content {
+  padding: 10px;
+  color: #d8d8d8;
+}
+
+/* line 290, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul li.content .progress {
+  margin-top: 0.7em;
+}
+
+/* line 294, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul li > ul {
+  display: none;
+}
+
+/* line 298, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul li.open > ul {
+  display: block;
+}
+
+/* line 302, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul li > a {
+  font-size: 13px;
+  display: block;
+  cursor: pointer;
+  color: #d8d8d8;
+  padding: 10px;
+  line-height: 20px;
+  border-bottom: none;
+  background: 0 0;
+  text-decoration: none;
+  transition: font-size 0s;
+}
+
+/* line 315, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul li > a > .yay-collapse-icon {
+  float: right;
+  margin-right: 5px;
+  transition: -webkit-transform .3s ease;
+  transition: transform 0.3s ease;
+}
+
+/* line 322, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul li > a > .badge {
+  float: right;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #2377ba;
+}
+
+/* line 331, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul li.active > a,
+.yaybar .nano-content > ul li.open > a,
+.yaybar .nano-content > ul li:hover > a {
+  color: white;
+}
+
+/* line 335, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul li.open > a > .yay-collapse-icon {
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+/* line 346, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul > li.content,
+.yaybar .nano-content > ul > li.label,
+.yaybar .nano-content > ul > li > a,
+html.rtl .yaybar .nano-content > ul > li.content,
+html.rtl .yaybar .nano-content > ul > li.label,
+html.rtl .yaybar .nano-content > ul > li > a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 353, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul > li.active > a,
+.yaybar .nano-content > ul > li.open > a,
+.yaybar .nano-content > ul > li > ul {
+  background: #2d2f40;
+}
+
+/* line 359, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul > li > ul > li.content,
+.yaybar .nano-content > ul > li > ul > li.label,
+.yaybar .nano-content > ul > li > ul > li > a {
+  padding-left: 45px;
+  padding-right: 15px;
+}
+
+/* line 366, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar .nano-content > ul > li > ul > li.content,
+html.rtl .yaybar .nano-content > ul > li > ul > li.label,
+html.rtl .yaybar .nano-content > ul > li > ul > li > a {
+  padding-left: 15px;
+  padding-right: 45px;
+}
+
+/* line 373, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul > li > ul > li.active > a,
+.yaybar .nano-content > ul > li > ul > li.open > a,
+.yaybar .nano-content > ul > li > ul > li > ul {
+  background: #242634;
+}
+
+/* line 379, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul > li > ul > li > ul > li.content,
+.yaybar .nano-content > ul > li > ul > li > ul > li.label,
+.yaybar .nano-content > ul > li > ul > li > ul > li > a {
+  padding-left: 67.5px;
+  padding-right: 15px;
+}
+
+/* line 386, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar .nano-content > ul > li > ul > li > ul > li.content,
+html.rtl .yaybar .nano-content > ul > li > ul > li > ul > li.label,
+html.rtl .yaybar .nano-content > ul > li > ul > li > ul > li > a {
+  padding-left: 15px;
+  padding-right: 67.5px;
+}
+
+/* line 393, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul > li > ul > li > ul > li.active > a,
+.yaybar .nano-content > ul > li > ul > li > ul > li.open > a,
+.yaybar .nano-content > ul > li > ul > li > ul > li > ul {
+  background: #1c1d28;
+}
+
+/* line 399, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano-content > ul > li > ul > li > ul > li > ul > li.content,
+.yaybar .nano-content > ul > li > ul > li > ul > li > ul > li.label,
+.yaybar .nano-content > ul > li > ul > li > ul > li > ul > li > a {
+  padding-left: 90px;
+  padding-right: 15px;
+}
+
+/* line 406, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar .nano-content > ul > li > ul > li > ul > li > ul > li.content,
+html.rtl .yaybar .nano-content > ul > li > ul > li > ul > li > ul > li.label,
+html.rtl .yaybar .nano-content > ul > li > ul > li > ul > li > ul > li > a {
+  padding-left: 15px;
+  padding-right: 90px;
+}
+
+/* line 411, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+body {
+  position: relative;
+}
+
+/* line 415, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar {
+  left: -260px;
+}
+
+/* line 419, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar {
+  transition: left 300ms ease-in-out, width 300ms ease-in-out;
+}
+
+/* line 423, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small {
+  /*position: absolute;*/
+  width: 60px;
+  left: 0;
+}
+
+/* line 431, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small,
+.yay-hide .yaybar.yay-hide-to-small .nano,
+.yay-hide .yaybar.yay-hide-to-small .nano-content {
+  overflow: visible;
+}
+
+/* line 435, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul {
+  width: 60px;
+}
+
+/* line 440, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul .content,
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul .label {
+  display: none;
+}
+
+/* line 444, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul > li > a {
+  text-align: center;
+  padding: 12px 0;
+  line-height: 1;
+}
+
+/* line 450, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul > li > a > i {
+  width: auto;
+  font-size: 1.7rem;
+}
+
+/* line 456, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul > li > a,
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul > li > a > .yay-collapse-icon {
+  font-size: 0;
+}
+
+/* line 460, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul > li > a > .badge {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+
+/* line 466, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul > li {
+  position: relative;
+}
+
+/* line 470, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul > li > ul {
+  visibility: hidden;
+  width: 260px;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+/* line 478, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small .nano-content > ul li:hover > ul {
+  visibility: visible;
+  display: block !important;
+}
+
+/* line 484, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-hide-to-small ~ .content-wrap,
+.yaybar.yay-overlay.yay-hide-to-small ~ .content-wrap {
+  margin-left: 60px;
+}
+
+/* line 488, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-push ~ .content-wrap {
+  -webkit-transform: translateX(260px) translateZ(0);
+  transform: translateX(260px) translateZ(0);
+  transition: -webkit-transform 300ms ease-in-out, margin-left 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, margin-left 300ms ease-in-out;
+}
+
+/* line 495, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-push ~ .content-wrap {
+  -webkit-transform: translateX(0) translateZ(0);
+  transform: translateX(0) translateZ(0);
+}
+
+/* line 500, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-shrink ~ .content-wrap {
+  margin-left: 260px;
+  transition: margin-left 300ms ease-in-out;
+}
+
+/* line 505, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-shrink ~ .content-wrap {
+  margin-left: 0;
+}
+
+/* line 509, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-shrink.yay-hide-to-small ~ .content-wrap {
+  margin-left: 60px;
+}
+
+/* line 513, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-overlap-content ~ .content-wrap:after {
+  content: '';
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 10;
+  transition: opacity 300ms ease-in-out, visibility 300ms ease-in-out;
+}
+
+/* line 529, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yay-hide .yaybar.yay-overlap-content ~ .content-wrap:after {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* line 534, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 541, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano > .nano-content {
+  position: absolute;
+  overflow: scroll;
+  overflow-x: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 551, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano > .nano-content:focus {
+  outline: dotted thin;
+}
+
+/* line 554, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano > .nano-content::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 557, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano.has-scrollbar > .nano-content::-webkit-scrollbar {
+  display: block;
+}
+
+/* line 561, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano > .nano-pane {
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 5px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: .01;
+  transition: .2s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 573, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano > .nano-pane > .nano-slider {
+  background: #2377BA;
+  position: relative;
+}
+
+/* line 580, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar .nano:hover > .nano-pane,
+.yaybar .nano > .nano-pane.active,
+.yaybar .nano > .nano-pane.flashed {
+  opacity: 0.99;
+}
+
+/* line 584, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light {
+  background: #f8f8f8;
+}
+
+/* line 588, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano > .nano-pane {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+/* line 593, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano-content > ul > li.content,
+.yaybar.yay-light .nano-content > ul > li > a {
+  color: #919191;
+}
+
+/* line 597, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano-content > ul > li:hover > a {
+  color: #474747;
+}
+
+/* line 602, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano-content > ul > li.active > a,
+.yaybar.yay-light .nano-content > ul > li.open > a {
+  color: white;
+}
+
+/* line 611, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano-content > ul > li.content,
+.yaybar.yay-light .nano-content > ul > li.label,
+.yaybar.yay-light .nano-content > ul > li > a,
+html.rtl .yaybar.yay-light .nano-content > ul > li.content,
+html.rtl .yaybar.yay-light .nano-content > ul > li.label,
+html.rtl .yaybar.yay-light .nano-content > ul > li > a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 618, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano-content > ul > li.active > a,
+.yaybar.yay-light .nano-content > ul > li.open > a,
+.yaybar.yay-light .nano-content > ul > li > ul {
+  background: #206da9;
+}
+
+/* line 624, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano-content > ul > li > ul > li.content,
+.yaybar.yay-light .nano-content > ul > li > ul > li.label,
+.yaybar.yay-light .nano-content > ul > li > ul > li > a {
+  padding-left: 45px;
+  padding-right: 15px;
+}
+
+/* line 631, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar.yay-light .nano-content > ul > li > ul > li.content,
+html.rtl .yaybar.yay-light .nano-content > ul > li > ul > li.label,
+html.rtl .yaybar.yay-light .nano-content > ul > li > ul > li > a {
+  padding-left: 15px;
+  padding-right: 45px;
+}
+
+/* line 638, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano-content > ul > li > ul > li.active > a,
+.yaybar.yay-light .nano-content > ul > li > ul > li.open > a,
+.yaybar.yay-light .nano-content > ul > li > ul > li > ul {
+  background: #1d6298;
+}
+
+/* line 644, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano-content > ul > li > ul > li > ul > li.content,
+.yaybar.yay-light .nano-content > ul > li > ul > li > ul > li.label,
+.yaybar.yay-light .nano-content > ul > li > ul > li > ul > li > a {
+  padding-left: 67.5px;
+  padding-right: 15px;
+}
+
+/* line 651, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar.yay-light .nano-content > ul > li > ul > li > ul > li.content,
+html.rtl .yaybar.yay-light .nano-content > ul > li > ul > li > ul > li.label,
+html.rtl .yaybar.yay-light .nano-content > ul > li > ul > li > ul > li > a {
+  padding-left: 15px;
+  padding-right: 67.5px;
+}
+
+/* line 658, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano-content > ul > li > ul > li > ul > li.active > a,
+.yaybar.yay-light .nano-content > ul > li > ul > li > ul > li.open > a,
+.yaybar.yay-light .nano-content > ul > li > ul > li > ul > li > ul {
+  background: #195786;
+}
+
+/* line 664, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+.yaybar.yay-light .nano-content > ul > li > ul > li > ul > li > ul > li.content,
+.yaybar.yay-light .nano-content > ul > li > ul > li > ul > li > ul > li.label,
+.yaybar.yay-light .nano-content > ul > li > ul > li > ul > li > ul > li > a {
+  padding-left: 90px;
+  padding-right: 15px;
+}
+
+/* line 671, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar.yay-light .nano-content > ul > li > ul > li > ul > li > ul > li.content,
+html.rtl .yaybar.yay-light .nano-content > ul > li > ul > li > ul > li > ul > li.label,
+html.rtl .yaybar.yay-light .nano-content > ul > li > ul > li > ul > li > ul > li > a {
+  padding-left: 15px;
+  padding-right: 90px;
+}
+
+/* line 676, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl {
+  direction: rtl;
+}
+
+/* line 680, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar {
+  left: auto;
+  right: 0;
+  transition: right 300ms ease, width 300ms ease;
+}
+
+/* line 686, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/* line 692, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar .nano-content > ul li > a > .badge,
+html.rtl .yaybar .nano-content > ul li > a > .yay-collapse-icon {
+  float: left;
+}
+
+/* line 696, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yay-hide .yaybar {
+  right: -260px;
+}
+
+/* line 700, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yay-hide .yaybar.yay-hide-to-small {
+  right: 0;
+  left: auto;
+}
+
+/* line 705, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yay-hide .yaybar.yay-hide-to-small .nano-content > ul > li > ul {
+  left: auto;
+  right: 100%;
+}
+
+/* line 710, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar.yay-overlay ~ .content-wrap {
+  margin-right: 0;
+}
+
+/* line 715, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yay-hide .yaybar.yay-hide-to-small ~ .content-wrap,
+html.rtl .yaybar.yay-overlay.yay-hide-to-small ~ .content-wrap {
+  margin-left: 0;
+  margin-right: 60px;
+}
+
+/* line 720, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar.yay-push ~ .content-wrap {
+  margin-left: 0;
+  -webkit-transform: translate3d(-260px, 0, 0);
+  transform: translate3d(-260px, 0, 0);
+  transition: -webkit-transform 300ms ease-in-out, margin-right 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, margin-right 300ms ease-in-out;
+}
+
+/* line 728, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yay-hide .yaybar.yay-push ~ .content-wrap {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 733, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yaybar.yay-shrink ~ .content-wrap {
+  margin-left: 0;
+  margin-right: 260px;
+  transition: margin-right 300ms ease-in-out;
+}
+
+/* line 739, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yay-hide .yaybar.yay-shrink ~ .content-wrap {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 744, D:/rails_projects/sassmenu/app/assets/stylesheets/menus.css.scss */
+html.rtl .yay-hide .yaybar.yay-shrink.yay-hide-to-small ~ .content-wrap {
+  margin-left: 0;
+  margin-right: 60px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ *= require_font-awesome.min
+ */
+
+
+ 
